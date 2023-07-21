@@ -1,0 +1,24 @@
+<!-- <view class="button-sp-are">
+  <button class="weui-btn" type="primary" size="mini"  bindtap="onClickOpen">Open</button>
+  <button type="warn" size="mini"  bindtap="onClickOff">Close</button>
+  <button size="mini">Temperature：{{temperature}}℃</button>
+  <button size="mini">Humidity：{{humidity}}</button>
+</view> -->
+
+<view class="page-container">
+<view class="data-display">
+
+
+  <view class="image-window">
+    <!-- <image class="large-image" src="cloud://plant-factory-1g6f51knc1750184.706c-plant-factory-1g6f51knc1750184-1319215353/camera images/test.png" mode="aspectFit" /> -->
+  
+    <image class="large-image" src="{{testList[0].fileID}}" mode="aspectFit" />
+
+  </view>
+
+  <!-- <view wx:for='{{testList}}' wx:for-item="item">
+      <image src = "{{item.fileID}}"></image>
+  </view> -->
+
+</view>
+</view>

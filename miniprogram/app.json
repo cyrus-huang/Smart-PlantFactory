@@ -1,0 +1,49 @@
+{
+  "plugins": {
+    "tfjsPlugin": {
+      "version": "0.0.6",
+      "provider": "wx6afed118d9e81df9"
+    }
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/uploadFile/uploadFile",
+    "pages/echarts/echarts",
+    "pages/monitor/monitor"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Smart Controller",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "static/monitor-grey.png",
+        "selectedIconPath": "static/monitor.png"
+      },
+      {
+        "pagePath": "pages/monitor/monitor",
+        "text": "",
+        "iconPath": "static/photo_grey.png",
+        "selectedIconPath": "static/photo.png"
+      },
+      {
+        "pagePath": "pages/uploadFile/uploadFile",
+        "text": "",
+        "iconPath": "static/camera-grey.png",
+        "selectedIconPath": "static/camera.png"
+      },
+      {
+        "pagePath": "pages/echarts/echarts",
+        "text": "",
+        "iconPath": "static/chart-grey.png",
+        "selectedIconPath": "static/chart.png"
+      }
+    ]
+  }
+}

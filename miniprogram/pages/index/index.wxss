@@ -1,0 +1,69 @@
+/* button{
+  margin:25px;
+  font-size:10px;
+  width:80%;
+}
+.userinfo-nickname{
+  color :#aaa;
+}
+.button-sp-are{margin-top:60px;
+height:50rpx}
+.weui-btn{margin-top:50px} */
+
+.data-display{
+  margin-top: 36rpx;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 300rpx);
+  grid-gap: 36rpx;
+}
+
+.data-display .data-card {
+    position: relative;
+    background-color: white;
+    height: 160rpx;
+    box-shadow: #d6d6d6 0 0 8rpx;
+    border-radius: 36rpx;
+    display: flex;
+    justify-content: space-between;
+    padding: 36rpx 36rpx;
+  }
+
+.data-display .data-card .dIcon {
+  margin-top: 16rpx;
+  height: 85rpx;
+  width: 85rpx;
+}
+
+.data-display .data-card .dTitle{
+  text-align: right;
+  white-space: nowrap;
+  color: #7f7f7f;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+
+.data-display .data-card .dValue {
+  margin-top: 12rpx;
+  text-align: right;
+  white-space: nowrap;
+  font-size: 53rpx;
+  font-weight: bold;
+}
+
+.data-display .data-card .dValue .btn {
+  width: 80%;
+}
+
+.image-window {
+  /* Set the desired size and position for the container view */
+  width: 630rpx;
+  height: 450rpx;
+  margin-top: 0rpx;
+}
+
+.large-image {
+  /* Set the desired size and position for the image */
+  width: 100%;
+  height: 100%;
+}

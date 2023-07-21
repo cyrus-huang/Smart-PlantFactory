@@ -1,0 +1,1 @@
+"D:\wechatWebDevelop\微信web开发者工具\cli.bat" cloud functions deploy --e plant-factory-1g6f51knc1750184 --n quickstartFunctions --r --project "C:\Users\cyrus_huang\AppData\Roaming\SPB_16.6\WeChatProjects\miniprogram-1" --report_first --report

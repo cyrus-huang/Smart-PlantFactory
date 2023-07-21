@@ -1,0 +1,10 @@
+<!--pages/uploadFile/uploadFile.wxml-->
+<view class="img">
+  <image src="{{picUrl}}" mode="widthFix"/>
+</view>
+<view class="cont">
+  <button class="btn" type="primary" bindtap="uploadImage">Upload</button>
+  <!-- <button class="btn" type="primary" bindtap="downloadImage">Save</button> -->
+  <view class="text">Your plant is: {{result}}</view>
+</view>
+

@@ -1,0 +1,76 @@
+<!-- <view class="button-sp-are">
+  <button class="weui-btn" type="primary" size="mini"  bindtap="onClickOpen">Open</button>
+  <button type="warn" size="mini"  bindtap="onClickOff">Close</button>
+  <button size="mini">Temperature：{{temperature}}℃</button>
+  <button size="mini">Humidity：{{humidity}}</button>
+</view> -->
+
+<view class="page-container">
+<view class="data-display">
+  <view class="data-card">
+    <image class="dIcon" src="/static/temperature.png" mode=""/>
+    <view>
+      <view class="dTitle">Temperature</view>
+      <view class="dValue">{{temperature}}℃</view>
+    </view>
+  </view>
+
+  <view class="data-card">
+    <image class="dIcon" src="/static/mositure.png" mode=""/>
+    <view>
+      <view class="dTitle">Mositrure</view>
+      <view class="dValue">{{humidity}}%</view>
+    </view>
+  </view>
+
+  <view class="data-card">
+    <image class="dIcon" src="/static/PH.png" mode=""/>
+    <view>
+      <view class="dTitle">PH</view>
+      <view class="dValue">{{PH}}</view>
+    </view>
+  </view>
+
+  <view class="data-card">
+    <image class="dIcon" src="/static/CO2.png" mode=""/>
+    <view>
+      <view class="dTitle">CO2</view>
+      <view class="dValue">{{CO2}}</view>
+    </view>
+  </view>
+
+  <view class="data-card">
+    <image class="dIcon" src="/static/lights.png" mode=""/>
+    <view>
+      <view class="dTitle">Light</view>
+      <view class="dValue"> <switch class="btn" color="#1296db" checked="{{Led}}" bindchange="updateLight"/> </view>
+    </view>
+  </view>
+
+  <view class="data-card">
+    <image class="dIcon" src="/static/pump.png" mode=""/>
+    <view>
+      <view class="dTitle">Pump</view>
+      <view class="dValue"> <switch class="btn" color="#1296db" checked="{{Pump}}" bindchange="updatePump"/> </view>
+    </view>
+  </view>
+
+  <view class="data-card">
+    <image class="dIcon" src="/static/nutrition.png" mode=""/>
+    <view>
+      <view class="dTitle">Nutrition</view>
+      <view class="dValue"> <switch class="btn" color="#1296db" checked="{{Nutr}}" bindchange="updateNutrition"/> </view>
+    </view>
+  </view>
+
+  <view class="data-card">
+    <image class="dIcon" src="/static/auto.png" mode=""/>
+    <view>
+      <view class="dTitle">AUTO</view>
+      <view class="dValue"> <switch class="btn" color="#1296db" checked="{{auto}}" bindchange="updateAuto"/> </view>
+    </view>
+  </view>
+
+
+</view>
+</view>

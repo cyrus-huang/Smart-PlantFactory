@@ -1,0 +1,3 @@
+<view class="line">
+  <ec-canvas id="myechart" canvas-id="mychart-line" ec="{{ lazyEc }}"></ec-canvas>
+</view>
