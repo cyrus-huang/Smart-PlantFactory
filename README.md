@@ -1,12 +1,44 @@
-# 云开发 quickstart
+# Remote Interaction with Plant Factory Product
 
-这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
+## Front-end Development
+- **Framework**: WeChat applet
+- **Languages**: JavaScript, wxml (similar to HTML), wxss (similar to CSS)
 
-- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
-- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
-- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
+## Back-end Development
+- **Framework**: WeChat cloud development
+- **Services**: File storage, database, APIs for front-end
 
-## 参考文档
+## WeChat Applet Structure
+1. **Index Page** 
+   - Data monitoring and control
+   - Data and commands sent to cloud server database
+   - Users can control switches to send commands to Raspberry Pi.
+<div align="center">
+  <img src="https://github.com/cyrus-huang/Smart-PlantFactory/assets/65390675/e3e21000-3a32-4d31-a922-960d01bc5291"  width="20%" height="20%" alt="Image 1" />
+  <br />
+</div>
 
-- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
+2. **Camera Image Page** 
+   - Displays real-time images from the camera
+   - Refreshes images every 3 seconds for optimal performance.
 
+3. **Image Recognition Page** 
+   - Users can take/upload plant photos to the cloud server.
+   - Server sends images to machine learning model and displays results.
+   - Provides basic plant state information.
+<div align="center">
+  <img src="https://github.com/cyrus-huang/Smart-PlantFactory/assets/65390675/f8b7f1d9-7e4c-4317-938e-f1be2af76ea4"  width="20%" height="20%" alt="Image 2" />
+  <br />
+</div>
+
+4. **Data Chart Page**
+   - Tracks latest data trends.
+   - Regularly reads data from cloud database for chart updates.
+   - Allows users to select items for detailed information.
+<div align="center">
+  <img src="https://github.com/cyrus-huang/Smart-PlantFactory/assets/65390675/29237025-32a2-4d0f-b200-8444509fed56"  width="20%" height="20%" alt="Image 2" />
+  <br />
+</div>
+
+## Data Visualization
+- Utilizes open-source graphic tool Echart for data visualization.
